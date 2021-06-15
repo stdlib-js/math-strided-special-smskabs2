@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-strided-special-smskabs2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compute the squared absolute value for each element in a single-precision floating-point strided array according to a strided mask array.",
   "license": "Apache-2.0",
   "author": {
