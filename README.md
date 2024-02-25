@@ -50,6 +50,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+smskabs2 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskabs2@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-strided-special-smskabs2/tags). For example,
+
+```javascript
 smskabs2 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskabs2@v0.2.1-umd/browser.js' )
 ```
 
@@ -62,7 +67,7 @@ var smskabs2 = require( 'path/to/vendor/umd/math-strided-special-smskabs2/index.
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskabs2@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskabs2@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -194,7 +199,7 @@ smskabs2.ndarray( 3, x, 2, 1, m, 2, 1, y, -1, y.length-1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskabs2@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-smskabs2@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
